@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/tickets.min.css">
+</head>
+<body>
+<main>
+    <div class="container">
+        <div class="logo">
+            <img src="http://www.coneii2017.pe/images/logo2.png" alt="">
+        </div>
+        <div class="dsct_form">
+            <div class="action">
+                <input type="text" placeholder="Ingresa tu código aqui">
+                <button>APLICAR</button>
+            </div>
+            <div class="info">
+                ¿Tienes un codigo de descuento?
+            </div>
+        </div>
+
+        <div class="dsct_form">
+            <div class="action">
+                <input type="text" disabled value="CODIGO 1">
+                <button class="square ok cancel ">
+                    <span class="checkmark">
+                        <div class="checkmark_circle"></div>
+                        <div class="checkmark_stem"></div>
+                        <div class="checkmark_kick"></div>
+                        <div class="checkmark_x1"></div>
+                        <div class="checkmark_x2"></div>
+                    </span>
+                </button>
+            </div>
+            <div class="info">
+                10% de descuento a "Estudiantes"
+            </div>
+        </div>
+        <div class="tickets_list">
+            <div class="ticket_item">
+                <div class="title">
+                    <div class="name">Estudiantes</div>
+                    <div class="price">$ 360.00 - $ 380.00 - $ 400.00</div>
+                </div>
+                <hr>
+                <div class="content">
+                    <div class="description">
+                        <span style="display: inline-block;"></span>
+                    </div>
+                    <div class="tools">
+                        <div class="quantity">Cantidad</div>
+                        <div class="action">
+                            <button class="less_one">-</button>
+                            <input type="text" value="0" disabled>
+                            <button class="plus_one">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket_item with_more_info">
+                <div class="title">
+                    <div class="name">Egresados</div>
+                    <div class="price">S/. 100.00 - S/. 150.00</div>
+                </div>
+                <hr>
+                <div class="content">
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    </div>
+                    <div class="tools">
+                        <div class="quantity"></div>
+                        <div class="action rtl">
+                            <button class="toogle"><i class="arrow down"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket_item_more_info">
+                <div class="ticket_item normal">
+                    <div class="title">
+                        <div class="name">Precio normal</div>
+                        <div class="price">S/. 150.00</div>
+                    </div>
+                    <hr>
+                    <div class="content">
+                        <div class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore
+                            et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        </div>
+                        <div class="tools">
+                            <div class="quantity">Cantidad</div>
+                            <div class="action">
+                                <button class="less_one">-</button>
+                                <input type="text" value="0" disabled>
+                                <button class="plus_one">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket_item discount">
+                    <div class="title">
+                        <div class="name">Descuento 30%</div>
+                        <div class="price"><span class="before">S/150.00</span> S/. 100.00</div>
+                    </div>
+                    <hr>
+                    <div class="content">
+                        <div class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore
+                            et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        </div>
+                        <div class="tools">
+                            <div class="quantity">Cantidad</div>
+                            <div class="action">
+                                <button class="less_one">-</button>
+                                <input type="text" value="0" disabled>
+                                <button class="plus_one">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket_item">
+                <div class="title">
+                    <div class="name">Estudiantes</div>
+                    <div class="price">S/. 200.00</div>
+                </div>
+                <hr>
+                <div class="content">
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    </div>
+                    <div class="tools">
+                        <div class="action rtl">
+                            <button disabled class="out">Agotado</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="total">
+            <div class="description">Total a pagar</div>
+            <div class="amount">S/ 350.00</div>
+        </div>
+        <div class="seller fields">
+            <div class="title"><h1>Datos del comprador</h1></div>
+            <div class="name field">
+                <label for="name">Nombre <span class="required">*</span></label>
+                <input type="text" id="name" placeholder="¿Como te llamas?">
+            </div>
+            <div class="phone field">
+                <label for="phone">Número de teléfono</label>
+                <input type="text" id="phone" placeholder="999 999 999">
+            </div>
+            <div class="email field">
+                <label for="email">Correo electrónico <span class="required">*</span></label>
+                <input type="text" id="email" placeholder="usuario@mail.com">
+            </div>
+            <div class="info">Campos obligatorios (*)</div>
+            <div class="agree">
+                <button>CONTINUAR</button>
+                <label for="agree">Acepto los <a href="#">términos y condiciones de uso</a></label>
+                <div class="custom-checkbox">
+                    <input type="checkbox" id="agree" name="agree" checked/>
+                    <label for="agree"></label>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="info">Con la tecnología de</div>
+            <div>
+                <img src="http://emesh-resources.s3.amazonaws.com/emesh/logo_eMesh_H.png" alt="">
+            </div>
+        </footer>
+    </div>
+</main>
+</body>
+</html>
